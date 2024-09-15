@@ -1,0 +1,155 @@
+#include<stdio.h>
+int main(void)
+{
+    int game;
+    int ans1,ans2,ans3,ans4,ans5;
+
+
+    printf("\t\t\t***Welcome into the game***\t\t\t \n");
+    printf("If you want to star the game press 5\n ... If you want to end the game press 7 \n");
+    scanf("%i",&game);
+
+    if(game == 5)
+    {
+        printf("\t\t\t---The game is started---\t\t\t \n");
+
+    }
+    if(game == 5)
+    {
+
+    printf("There you go \n");
+
+    printf("------------------------------------------------\n");
+    printf("(1st)... who is the cm of Andra pradesh(2024) \n");
+    printf("------------------------------------------------\n");
+    printf("1) Konidala Pawan Kalyan \n");
+    printf("2) Chandrababu Naidu \n");
+    printf("3) Jagan Mohan Reddy \n");
+    printf("4) KA Paul \n");
+
+    printf("enter your ans: ");
+    scanf("%d",&ans1);
+
+    if(ans1==2)
+    {
+        printf("you have taken correct answer \n");
+        printf("your score: +1 point\n");
+
+    }
+    else
+    {
+        printf("you have taken wrong answer \n");
+        printf("your score: -1 point\n");
+
+    }
+
+    printf("---------------------------------------------\n");
+    printf("(2nd)... Who Is Founder Of C Language \n");
+    printf("---------------------------------------------\n");
+    printf("1) Guido Van Rossum \n");
+    printf("2)  James Gosling \n");
+    printf("3) Dennis Ritchie \n");
+    printf("4) Wes McKinney \n");
+
+    printf("enter your ans: ");
+    scanf("%d",&ans2);
+
+     if(ans2==3)
+    {
+        printf("you have taken correct answer \n");
+        printf("your score: +1 point\n");
+
+    }
+    else
+    {
+        printf("you have taken wrong answer \n");
+        printf("your score: -1 point\n");
+    }
+
+
+    printf("---------------------------------------------\n");
+    printf("(3rd)... How Many keyWords In C Language \n");
+    printf("---------------------------------------------\n");
+    printf("1)  32 \n");
+    printf("2)  35 \n");
+    printf("3)  42 \n");
+    printf("4)  39 \n");
+
+    printf("enter your ans: ");
+    scanf("%d",&ans3);
+
+     if(ans3==1)
+    {
+        printf("you have taken correct answer \n");
+        printf("your score: +1 point\n");
+
+    }
+    else
+    {
+        printf("you have taken wrong answer \n");
+        printf("your score: -1 point\n");
+
+    }
+
+
+    printf("---------------------------------------------\n");
+    printf("(4th)... Who Is The First Prime Minister Of Mauryan Empire \n");
+    printf("---------------------------------------------\n");
+    printf("1) RajaRaja I \n");
+    printf("2) Chandragupta Maurya \n");
+    printf("3) Kishna \n");
+    printf("4) Chanakya  \n");
+    printf("enter your ans: ");
+    scanf("%d",&ans4);
+
+     if(ans4==4)
+    {
+        printf("you have taken correct answer \n");
+        printf("your score: +1 point\n");
+
+    }
+    else
+    {
+        printf("you have taken wrong answer \n");
+        printf("your score: -1 point\n");
+    }
+
+
+    printf("---------------------------------------------\n");
+    printf("(5th)... Who Is The Founder Of Amazon \n");
+    printf("---------------------------------------------\n");
+    printf("1) Jeff Bezos \n");
+    printf("2) Petter \n");
+    printf("3) Larry Page \n");
+    printf("4) Sergey Brin \n");
+    printf("enter your ans: ");
+    scanf("%d",&ans5);
+
+     if(ans5==4)
+    {
+        printf("you have taken correct answer \n");
+        printf("your score: +1 point\n");
+
+    }
+    else
+    {
+        printf("you have taken wrong answer \n");
+        printf("your score: -1 point\n");
+    }
+
+    }
+    else if(game == 7)
+    {
+        printf("\t\t\t---Thank for using---\t\t\t ");
+
+    }
+    else
+    {
+        printf("you have entered wrong info!!!");
+
+
+    }
+
+
+
+}
